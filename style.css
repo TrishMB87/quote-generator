@@ -4,17 +4,54 @@
 }
 
 body {
-    background-image: url("./Img/castle.jpg");
+    background-image: url("./Img/walle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
-  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: waltograph;
 }
 
 h1 {
-    color: rgb(237, 103, 241);
-    font-style: italic;
-    font-weight: bolder;
-    margin-top: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    background-color: red;
+    background-image:
+    linear-gradient(
+      to right, 
+      rgba(44, 12, 226, 0.87),  
+      rgba(155, 12, 211, 0.904), 
+      rgba(230, 10, 10, 0.712)
+    );
+    color: rgb(89, 238, 238);
+    font-size: 60px;
+}
+
+.quote-container {
+    background-color: rgba(13, 44, 110, 0.295);
+    padding: 30px;
+    color: rgb(89, 238, 238);
+}
+
+#quotes {
+    position: relative;
+    line-height: 70px;
+    font-size: 45px;
+}
+
+#character {
+    position: relative;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+#random {
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: rgba(230, 10, 10, 0.541);
+    color: rgb(89, 238, 238);
+    border:none;
+    cursor: pointer;
 }
